@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Information and Analysis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='http://code.jquery.com/jquery-1.12.0.min.js'></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+	<script src="https://code.highcharts.com/mapdata/custom/european-union.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/infovis.css">
+    </head>
+    <body>
+        
+        <ul style="list-style-type:none">
+        <li><a href="http://localhost:8383/Europollution/index.html">Graphs</a></li>
+        <li><a href="http://localhost:8383/Europollution/info.html">Information and references</a></li>
+        </ul>
+        
+        
+         <h1 align="center">Information and Analysis</h1>
+         
+         <p>The visualisations in this project are attempting to visualise the relationship between the amount of air pollution (<a href="#ref2">2.</a>)
+            produced and amount of cars per 1000 people in the country (<a href="#ref1">1.</a>) via the formula below .</p>
+         
+         <br>
+         
+         <br>
+         
+         <h3 align="center">Thousands of Tonnes of air pollution / Number of cars per 1000 people (Motorisation rate)</h3>
+         
+  
+         <br>
+         
+         <p> While the general fall in air pollution is transfered to the graph it does show that in some country's traffic does provide a greater proportion of total emissions than others.</p>
+         
+         <br>
+         
+         <h2>Air pollution measurements</h2>
+         
+         <div title="poltbox"> 
+         
+        <div class="infobox">
+            <h3>Particulate matter(PM 10 & PM 2.5)</h3>
+            
+            <p>Sum of all solid and liquid particles suspended in air many of which are hazardous, caused by the combustion of fossil fuels such as coal, oil, and petrol. (<a href="#ref3">3.</a>)</p>
+            <h5>Relationship : high</h5>
+        </div>
+        
+        <div class="infobox">
+            <h3>Ammonia (NH3)</h3> 
+            
+            <p>NH3 contributes to acid deposition and eutrophication, which in turn, can lead to potential changes occurring in soil and water quality. 
+                90% of emissions are the result of agriculture. (<a href="#ref5">5.</a>)</p>
+            <h5>Relationship : low</h5>
+        </div>
+        
+        <div class="infobox">
+            <h3>Non-methane volatile organic compound (NMVOC)</h3>
+            
+            <p>Non-methane volatile organic compounds (NMVOCs) are a collection of organic compounds that differ widely in their chemical composition but display similar behaviour in the atmosphere.
+            NMVOCs contribute to the formation of ground level (tropospheric) ozone and some are directly hazardous to human health. (<a href="#ref4">4.</a>)</p>
+            
+            <h5>Relationship : medium</h5>
+        </div>
+        
+        <div class="infobox">
+            <h3>Nitrogen oxides (NOX)</h3>
+            
+            <p>Result of endothermic reaction between Nitrogen and
+Oxygen during combustion processes, at high temperatures. (<a href="#ref3">3.</a>)</p>
+            <h5>Relationship : high</h5>
+            
+        </div>
+        
+        <div class="infobox">
+            <h3>Sulphur Oxides (SOX)</h3>
+            
+            <p>Emitted when fuels containing sulphur are consumed. (<a href="#ref3">3.</a>)</p>
+            <h5>Relationship : high</h5>
+        </div>
+         </div> 
+         <br>
+    
+         <div>
+             <p>References:</p>
+    1. <a name="ref1" href='https://data.europa.eu/euodp/en/data/dataset/AiiDHq9gLw11d1Gh9pOA'>https://data.europa.eu/euodp/en/data/dataset/AiiDHq9gLw11d1Gh9pOA</a>
+    <br>
+    2. <a name="ref2" href='http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&lang=en'>http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&lang=en</a>
+    <br>
+    3. <a name="ref3" href="http://www.emsa.europa.eu/main/air-pollution.html">http://www.emsa.europa.eu/main/air-pollution.html</a>
+    <br>
+    4. <a name="ref4" href="http://www.eea.europa.eu/data-and-maps/indicators/eea-32-non-methane-volatile-1">http://www.eea.europa.eu/data-and-maps/indicators/eea-32-non-methane-volatile-1</a>
+    <br>
+    5. <a name="ref5" href="http://www.eea.europa.eu/data-and-maps/indicators/eea-32-ammonia-nh3-emissions-1">http://www.eea.europa.eu/data-and-maps/indicators/eea-32-ammonia-nh3-emissions-1</a> 
+         </div>    
+    </body>
+</html>
